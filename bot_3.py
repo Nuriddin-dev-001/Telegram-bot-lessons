@@ -35,7 +35,7 @@ def message_handler(update, context):
 def contact_handler(update, context):
     phone_number = update.message.contact.phone_number
     # update.message.reply_text(text=f"Sizning nomeringiz '{phone_number}'")
-    context.bot.send_message(chat_id=7192734058, text=f"yangi foydalanuvchi raqami: {phone_number}")
+    context.bot.send_message(chat_id=*******, text=f"yangi foydalanuvchi raqami: {phone_number}")
 
 
 def location_handler(update, context):
@@ -45,7 +45,7 @@ def location_handler(update, context):
     update.message.reply_text(f"latitude={location.latitude},longitude={location.longitude}")
 
 def main():
-    updater = Updater(token="7926665974:AAGFadnhmF4QLRG2Y7xR85J07JLXYzdkIWw")
+    updater = Updater(token="*****************************************")
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler('start', start_command))
@@ -62,25 +62,3 @@ if __name__ == '__main__':
     main()
 
 
-# qiziqish = input("Nimaga qiziqasiz: ").lower()
-# if "kitob" in qiziqish:
-#     janr = input("Sizga qaysi janrdagi kitoblar yoqadi? ").lower()
-#     if "diniy" in janr:
-#         print("Sizga 'Hadis va hayot' kitoblar to'plamini sovg'a qilamiz!")
-#     elif "detektiv" in janr:
-#         print("Sizga 'Shaytanat' kitobini sovg'a qilamiz!")
-#     else:
-#         print("Sizga qiziq bo'lishi mumkin bo'lgan turli kitoblarimiz bor!")
-# elif "sport" in qiziqish:
-#     tur = input("Sizga qaysi sport turi yoqadi? ").lower()
-#     if "futbol" in tur:
-#         club = input("Qaysi klubga muhlislik qilasiz? ").lower()
-#         if "real" in club or "barsa" in club or "barcelona" in club:
-#             print("Sizga El Clasico o'yiniga chipta sovg'a qilamiz!")
-# # else larni GPT maslahat berdi tepani o'zim yozdim
-#         else:
-#             print("Sizga sevimli jamoangizning maxsus sovg'asini beramiz!")
-#     else:
-#         print("Sizning sportga qiziqishingiz biz uchun qiziq, sovg'a tayyorlaymiz!")
-# else:
-#     print("Ajoyib! Sizning qiziqishingizni bilish biz uchun muhim!")
