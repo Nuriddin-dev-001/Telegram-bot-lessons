@@ -114,7 +114,7 @@ def cancel(update, context):
 
 
 def main():
-    updater = Updater(token="6255255483:AAEGa_tglVQJK74IcUEGCOsfZkEoVzz74dI")
+    updater = Updater(token="*************************************************")
     dispatcher = updater.dispatcher
 
     conv_handler = ConversationHandler(
