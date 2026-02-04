@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, BotCommand
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 
-TOKEN = "7502625630:AAGC0_1a0aObsaoH_DU1jnvgCijHjKMuZPo"
+TOKEN = "*********************************************"
 
 buttons_data = {
     "python_info": "Python — eng yaxshi dasturlash tillaridan biri.",
