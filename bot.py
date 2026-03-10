@@ -1,7 +1,7 @@
 import requests
 
-token = "7926665974:AAGFadnhmF4QLRG2Y7xR85J07JLXYzdkIWw"
-chat_id = 7192734058
+token = "********************************************"
+chat_id = **********
 
 response = requests.post(
     f'https://api.telegram.org/bot{token}/sendDocument',
