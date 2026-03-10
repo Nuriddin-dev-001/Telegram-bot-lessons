@@ -8,7 +8,7 @@ def start_func(update, context):
     print(update.message.from_user)
 
 
-updater = Updater(token="7926665974:AAGFadnhmF4QLRG2Y7xR85J07JLXYzdkIWw")
+updater = Updater(token="*********************************************")
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler('start', start_func))
 updater.start_polling()
