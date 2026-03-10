@@ -1,8 +1,8 @@
 import random
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 from telegram import BotCommand, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, BotCommand, InputMediaPhoto, ReplyKeyboardRemove
-ADMIN_ID = 392330197
-TOKEN = "6255255483:AAEGa_tglVQJK74IcUEGCOsfZkEoVzz74dI"
+ADMIN_ID = **********
+TOKEN = "************************************************"
 
 buttons = [
     [InlineKeyboardButton(text="Send Photo", callback_data="send_photo"),
